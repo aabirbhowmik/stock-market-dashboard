@@ -132,8 +132,8 @@ STOCK MARKET DASHBOARD/
 ### ⚙️ Installation
 1. Clone the repository
 ```
-git clone <your-github-repository-url>
-cd STOCK-MARKET-DASHBOARD
+git clone https://github.com/aabirbhhowmik/stock-market-dashboard.git
+cd stock-market-dashboard
 ```
 2. Create a virtual environment
 ```
@@ -154,9 +154,9 @@ pip install -r requirements.txt
 ```
 python -m streamlit run app.py
 ```
-The application will be available at:
+#### The application will be available at:
+https://realtime-stock-market-dashboard.streamlit.app
 
-http://localhost:8501
 ## 🧭 Usage
 Enter a stock ticker in the sidebar.
 Select the desired time period.
