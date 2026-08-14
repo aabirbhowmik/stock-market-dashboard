@@ -46,12 +46,12 @@ NVDA
 ### Indian Stocks
 
 Examples:
-
+```
 RELIANCE.NS
 TCS.NS
 INFY.NS
 HDFCBANK.NS
-
+```
 The application automatically detects .NS and .BO ticker symbols as INR-denominated stocks.
 
 ### 📈 Technical Indicators
@@ -77,14 +77,14 @@ Technical indicators are provided for educational and analytical purposes and sh
 ## 💱 Currency Conversion
 
 The dashboard supports:
-
+```
 USD
 INR
-
+```
 Stock prices can be converted between USD and INR using the latest available USD/INR exchange rate retrieved through Yahoo Finance.
 
 Currency conversion is applied to:
-
+```
 Stock price
 Period high
 Period low
@@ -92,7 +92,7 @@ Price charts
 SMA 20
 EMA 20
 Watchlist prices
-
+```
 RSI and percentage changes are unaffected by currency conversion.
 
 ## ⭐ Watchlist
@@ -120,29 +120,40 @@ The dashboard supports optional automatic refresh with the following intervals:
 120 seconds
 300 seconds
 ##📁 Project Structure
+```text
 STOCK MARKET DASHBOARD/
 │
 ├── .gitignore
 ├── app.py
 ├── README.md
 └── requirements.txt
+```
 
-##⚙️ Installation
+### ⚙️ Installation
 1. Clone the repository
+```
 git clone <your-github-repository-url>
 cd STOCK-MARKET-DASHBOARD
+```
 2. Create a virtual environment
+```
 python -m venv .venv
-3. Activate the virtual environment
+```
+4. Activate the virtual environment
+```
 Windows
 .venv\Scripts\activate
 macOS / Linux
 source .venv/bin/activate
-4. Install dependencies
+```
+6. Install dependencies
+```
 pip install -r requirements.txt
-5. Run the application
+```
+8. Run the application
+```
 python -m streamlit run app.py
-
+```
 The application will be available at:
 
 http://localhost:8501
@@ -176,5 +187,6 @@ This project is intended for educational and portfolio purposes and should not b
 This project is available for educational and portfolio purposes.
 
 ## 👨‍💻 Author
-
+```
 Aabir Bhowmik
+```
