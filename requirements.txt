@@ -1,4 +1,4 @@
-streamlit[charts]==1.47.0
+streamlit[charts]==1.60.0
 streamlit-autorefresh
 yfinance==0.2.65
 pandas==2.3.1
