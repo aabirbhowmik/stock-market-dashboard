@@ -41,6 +41,7 @@ MSFT
 GOOGL
 AMZN
 NVDA
+```
 
 ### Indian Stocks
 
@@ -164,7 +165,7 @@ Ticker: RELIANCE.NS
 Currency: INR
 Chart Type: Candlestick
 Indicators: SMA 20, EMA 20, RSI 14
-📡 Data Source
+## 📡 Data Source
 
 Market data is retrieved from Yahoo Finance using the yfinance Python library.
 
